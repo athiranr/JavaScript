@@ -100,4 +100,25 @@ console.log(typeof b);
 console.log(typeof parseInt(a));
 console.log(typeof toString(b));
 
+//array methods
+let myArray1 = ["a","b","c"];
+myArray1[0] = "z";
+myArray1.push("d");//added to last position
+myArray1.pop();//remove from last position
+myArray1.unshift("p");//added to first position
+myArray1.shift();//remove from first position
+console.log(myArray1.length);
+console.log(myArray1);
+let myArray2 = ["a","b","c","d"];
+    myArray2.splice(4,0,"e","f","g","h");
+    console.log( myArray2);
+let myArray3 = ["a","b","c","d"];
+    myArray3.splice(2,0,"e","f","g","h");//element added without deletion
+    console.log( myArray3);
+let myArray4 = ["a","b","c","d"];
+    myArray4.splice(2,1,"e","f","g","h");//element added with deletion
+    console.log( myArray4);
+
+
+
 
