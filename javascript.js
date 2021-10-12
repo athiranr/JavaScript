@@ -119,6 +119,15 @@ let myArray4 = ["a","b","c","d"];
     myArray4.splice(2,1,"e","f","g","h");//element added with deletion
     console.log( myArray4);
 
+// object methods
+let myObj =
+{
+  fullName : "Gowri",
+  fullAddress : "Sreekandeswarath"
+};
+myObj.fullName = "Gowri Kalyani"
+delete myObj. fullAddress;
+console.log(myObj);
 
 
 
