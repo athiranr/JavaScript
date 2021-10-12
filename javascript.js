@@ -118,6 +118,15 @@ let myArray3 = ["a","b","c","d"];
 let myArray4 = ["a","b","c","d"];
     myArray4.splice(2,1,"e","f","g","h");//element added with deletion
     console.log( myArray4);
+let num = [1,4,7,6,2,9,3,8,5];
+    num.sort();
+    console.log(num);
+let myArray5 = ["a","b","c","d","e","f","g"];
+    myArray5.reverse();
+    console.log( myArray5);
+let newArray = myArray5.slice(2,5);
+    console.log( newArray);
+
 
 // object methods
 let myObj =
